@@ -1,0 +1,26 @@
+.chat-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  top: 60px;
+  bottom: 0;
+  width: 100%;
+}
+
+.chat-messages {
+  position: relative;
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.chat-heading {
+  position: relative;
+}
+
+.chat-users {
+  position: absolute;
+  right: 20px;
+  top: 100px;
+  width: 200px;
+}
